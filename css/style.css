@@ -366,8 +366,8 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 
   .display-tc .btn{
-    padding: 5px 15px;
-    font-size: 14px;
+    padding: 5px 15px!important;
+    font-size: 14px!important;
   }
 
 }
@@ -519,7 +519,7 @@ form label {
 #gtco-header .display-tc,
 #gtco-counter .display-tc,
 .gtco-cover .display-tc {
-  /*display: table-cell !important;*/
+  display: table-cell !important;
   vertical-align: middle;
 }
 #gtco-header .display-tc h1, #gtco-header .display-tc h2,
@@ -543,7 +543,10 @@ form label {
   #gtco-header .display-tc h1,
   #gtco-counter .display-tc h1,
   .gtco-cover .display-tc h1 {
-    font-size: 40px;
+    font-size: 26px;
+  }
+  .gtco-cover .display-tc h2 {
+    font-size: 16px;
   }
 }
 #gtco-header .display-tc h2,
