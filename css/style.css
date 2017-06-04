@@ -556,10 +556,10 @@ form label {
   #gtco-header .display-tc h1,
   #gtco-counter .display-tc h1,
   .gtco-cover .display-tc h1 {
-    font-size: 26px;
+    font-size: 26px!important;
   }
   .gtco-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 16px!important;
   }
 }
 #gtco-header .display-tc h2,
