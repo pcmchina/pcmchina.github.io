@@ -428,6 +428,12 @@ h1, h2, h3, h4, h5, h6, figure {
   #gtco-counter .display-tc {
     height: inherit;
   }
+
+  /*产品图片处理*/
+  .gtco-tab-content img{
+    height: auto!important;
+    width: 100%!important;
+  }
 }
 
 .gtco-staff {
