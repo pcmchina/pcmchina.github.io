@@ -22,10 +22,13 @@
 	};
 
 
+	//响应式菜单生成
 	var offcanvasMenu = function() {
 
-		$('#page').prepend('<div id="gtco-offcanvas" />');
-		$('#page').prepend('<a href="#" class="js-gtco-nav-toggle gtco-nav-toggle gtco-nav-white"><i></i></a>');
+		//$('#page').prepend('<div id="gtco-offcanvas" />');
+		//$('#page').prepend('<a href="#" class="js-gtco-nav-toggle gtco-nav-toggle gtco-nav-white"><i></i></a>');
+		$('.gtco-nav').prepend('<div id="gtco-offcanvas" />');
+		$('.gtco-nav').prepend('<a href="#" class="js-gtco-nav-toggle gtco-nav-toggle gtco-nav-black"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
 		$('#gtco-offcanvas').append(clone1);
 		var clone2 = $('.menu-2 > ul').clone();
@@ -39,7 +42,7 @@
 		// Hover dropdown menu on mobile
 		$('.offcanvas-has-dropdown').mouseenter(function(){
 			var $this = $(this);
-
+			//$(".gtco-nav").addClass('active');
 			$this
 				.addClass('active')
 				.find('ul')
@@ -47,6 +50,7 @@
 		}).mouseleave(function(){
 
 			var $this = $(this);
+			//$(".gtco-nav").removeClass('active');
 			$this
 				.removeClass('active')
 				.find('ul')
