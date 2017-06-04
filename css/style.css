@@ -350,6 +350,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .gtco-cover {
     height: 300px;
   }
+  .gtco-nav ul li.active > a {
+    color: #fff !important;
+  }
 }
 .gtco-cover .display-t,
 .gtco-cover .display-tc {
