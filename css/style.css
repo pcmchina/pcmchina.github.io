@@ -350,6 +350,15 @@ h1, h2, h3, h4, h5, h6, figure {
   .gtco-cover {
     height: 300px;
   }
+  .gtco-nav ul li.active > a {
+    color: #fff !important;
+  }
+
+  .carousel-indicators{
+    bottom: 0!important;
+    margin-bottom:0!important;
+  }
+
 }
 .gtco-cover .display-t,
 .gtco-cover .display-tc {
@@ -368,6 +377,10 @@ h1, h2, h3, h4, h5, h6, figure {
   .display-tc .btn{
     padding: 5px 15px!important;
     font-size: 14px!important;
+  }
+
+  .links li{
+    width: 48%!important;
   }
 
 }
@@ -539,10 +552,11 @@ form label {
   #gtco-header .display-tc h1,
   #gtco-counter .display-tc h1,
   .gtco-cover .display-tc h1 {
-    font-size: 26px;
+    font-size: 26px!important;
   }
   .gtco-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 16px!important;
+    margin-bottom: 15px;
   }
 }
 #gtco-header .display-tc h2,
