@@ -1571,3 +1571,13 @@ form label {
   content: "\e9af";
 }
 
+.baidu-map{
+  height: 600px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .baidu-map{
+    height: 300px;
+  }
+}
+
