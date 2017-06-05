@@ -388,20 +388,46 @@ h1, h2, h3, h4, h5, h6, figure {
    height: 600px;
  }
 
+.gtco-cover.gtco-cover-sm2 {
+  height: 900px;
+}
+
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-sm {
     height: 400px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .gtco-cover.gtco-cover-sm2 {
+    height: 400px;
+  }
+}
+
 .gtco-cover.gtco-cover-sm .display-t,
 .gtco-cover.gtco-cover-sm .display-tc {
   height: 600px;
   display: table;
   width: 100%;
 }
+
+.gtco-cover.gtco-cover-sm2 .display-t,
+.gtco-cover.gtco-cover-sm2 .display-tc {
+  height: 600px;
+  display: table;
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-sm .display-t,
   .gtco-cover.gtco-cover-sm .display-tc {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gtco-cover.gtco-cover-sm2 .display-t,
+  .gtco-cover.gtco-cover-sm2 .display-tc {
     height: 400px;
   }
 }
