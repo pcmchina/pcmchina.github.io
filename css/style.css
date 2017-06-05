@@ -1578,6 +1578,7 @@ form label {
 @media screen and (max-width: 768px) {
   .baidu-map{
     height: 300px;
+    width: 100%;
   }
 }
 
