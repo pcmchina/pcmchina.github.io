@@ -1,7 +1,7 @@
 .xinzi {
     background: no-repeat center top;
     background-image:url(../images/xz_bg.jpg);
-    height: 929px;
+    height: 829px;
 }
 
 th, td {
@@ -22,7 +22,7 @@ th, td {
     overflow: hidden;
 }
 
-.xinzi .base h2 {
+.xinzi .base h3 {
     color: #000;
 }
 
@@ -31,32 +31,17 @@ th, td {
     font-size: 50px;
 }
 
-.base h2 {
+.base h3 {
     color: #fff;
-    font-size: 54px;
+    font-size: 32px;
     text-align: center;
     font-weight: 100;
     margin-bottom: 55px;
 }
 
 .jyxb_con_list {
-    text-align: center;
     position: relative;
     margin-bottom: 50px;
-}
-
-.xinzi .btn {
-    border: 2px solid #ec4c44;
-    color: #ec4c44;
-    background: rgba(255,255,255,0);
-    margin: 0 15px;
-    display: inline-block;
-    font-size: 24px;
-    width: 262px;
-    height: 57px;
-    border-radius: 5px;
-    text-align: center;
-    line-height: 57px;
 }
 
 .swing {
@@ -123,7 +108,7 @@ td, th {
 }
 .table_Hd th {
     height: 50px;
-    background: #066FA5;
+    background: #52d3aa;
     color: #fff;
     font-size: 16px;
 }
@@ -146,11 +131,12 @@ address, caption, cite, code, dfn, th, var {
 }
 
 .scrollWrap td {
-    height: 40px;
+    height: 45px;
     background: #f4f4f4;
     font-size: 14px;
     color: #000;
 }
-#scrollWrap tr td:nth-child(6) {
-    font-size: 18px;
+
+#scrollWrap tr td:nth-child(2) {
+    text-align: left;
 }
