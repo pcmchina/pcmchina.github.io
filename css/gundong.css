@@ -88,7 +88,13 @@ table{
     border-color: grey;
     width: 1200px;
 }
-
+@media screen and (max-width: 768px){
+    table {
+        display: table;
+        border-color: grey;
+        width: auto;
+    }
+}
 tbody {
     display: table-row-group;
     vertical-align: middle;
