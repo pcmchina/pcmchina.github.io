@@ -45,8 +45,8 @@ th, td {
 }
 
 .xinzi .btn {
-    border: 2px solid #ec4c44;
-    color: #ec4c44;
+    border: 2px solid #52d3aa;
+    color: #52d3aa;
     background: rgba(255,255,255,0);
     margin: 0 15px;
     display: inline-block;
@@ -73,6 +73,7 @@ th, td {
     position: relative;
     margin-bottom: 5px;
     box-shadow: 0 2px 8px #ccc;
+    overflow-y: auto;
 }
 
 .scrollWrap table{
@@ -121,7 +122,7 @@ td, th {
 }
 .table_Hd th {
     height: 50px;
-    background: #ec4c44;
+    background: #52d3aa;
     color: #fff;
     font-size: 16px;
 }
@@ -151,7 +152,7 @@ address, caption, cite, code, dfn, th, var {
     color: #000;
 }
 #scrollWrap tr td:nth-child(6) {
-    background: #ec4c44;
+    background: #52d3aa;
     color: #fff;
     font-size: 18px;
 }
