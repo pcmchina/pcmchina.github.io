@@ -1,0 +1,157 @@
+.xinzi {
+    background: url(http://www.mobiletrain.org/page/img/html5_20170105/xz_bg.jpg) no-repeat center top;
+    height: 929px;
+}
+
+th, td {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+.xinzi .base {
+    text-align: center;
+}
+
+.base {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.xinzi .base h2 {
+    color: #000;
+}
+
+.xinzi .biaoti {
+    margin-bottom: 65px;
+    font-size: 50px;
+}
+
+.base h2 {
+    color: #fff;
+    font-size: 54px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 55px;
+}
+
+.jyxb_con_list {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.xinzi .btn {
+    border: 2px solid #ec4c44;
+    color: #ec4c44;
+    background: rgba(255,255,255,0);
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 24px;
+    width: 262px;
+    height: 57px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 57px;
+}
+
+.swing {
+    transform-origin: top center;
+}
+
+.bounceIn {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+}
+
+.scrollWrap {
+    height: 560px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.scrollWrap table{
+    position: absolute;
+    left: 0;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    display: table;
+    border-color: grey;
+    width: 1200px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.table_Hd tr th:nth-child(6) {
+    font-size: 18px;
+    position: relative;
+    width: 95px;
+}
+.table_Hd th {
+    height: 50px;
+    background: #ec4c44;
+    color: #fff;
+    font-size: 16px;
+}
+address, caption, cite, code, dfn, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.table_Hd tr th:nth-child(6):after {
+    content: "";
+    width: 107px;
+    height: 5px;
+    position: absolute;
+    background: url(http://www.mobiletrain.org/page/img/html5_20170105/xz_after.png) no-repeat center top;
+    left: -7px;
+    top: -5px;
+}
+
+.scrollWrap tr{
+    border: 2px solid #fff;
+}
+
+.scrollWrap td {
+    height: 40px;
+    background: #f4f4f4;
+    font-size: 14px;
+    color: #000;
+}
+#scrollWrap tr td:nth-child(6) {
+    background: #ec4c44;
+    color: #fff;
+    font-size: 18px;
+}
