@@ -1,5 +1,6 @@
 .xinzi {
-    background: url(http://www.mobiletrain.org/page/img/html5_20170105/xz_bg.jpg) no-repeat center top;
+    background: no-repeat center top;
+    background-image:url(../images/xz_bg.jpg);
     height: 929px;
 }
 
