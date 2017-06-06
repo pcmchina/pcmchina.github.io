@@ -45,8 +45,8 @@ th, td {
 }
 
 .xinzi .btn {
-    border: 2px solid #52d3aa;
-    color: #52d3aa;
+    border: 2px solid #ec4c44;
+    color: #ec4c44;
     background: rgba(255,255,255,0);
     margin: 0 15px;
     display: inline-block;
@@ -122,7 +122,7 @@ td, th {
 }
 .table_Hd th {
     height: 50px;
-    background: #52d3aa;
+    background: #066FA5;
     color: #fff;
     font-size: 16px;
 }
@@ -136,7 +136,6 @@ address, caption, cite, code, dfn, th, var {
     width: 107px;
     height: 5px;
     position: absolute;
-    background: url(http://www.mobiletrain.org/page/img/html5_20170105/xz_after.png) no-repeat center top;
     left: -7px;
     top: -5px;
 }
@@ -152,7 +151,5 @@ address, caption, cite, code, dfn, th, var {
     color: #000;
 }
 #scrollWrap tr td:nth-child(6) {
-    background: #52d3aa;
-    color: #fff;
     font-size: 18px;
 }
