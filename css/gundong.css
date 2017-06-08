@@ -79,6 +79,17 @@ th, td {
     overflow-y: auto;
 }
 
+@media screen and (max-width: 768px){
+    .scrollWrap {
+        height: 400px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 5px;
+        box-shadow: 0 2px 8px #ccc;
+        overflow-y: auto;
+
+}
+
 .scrollWrap table{
     position: absolute;
     left: 0;
