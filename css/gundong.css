@@ -93,7 +93,6 @@ table{
         display: table;
         border-color: grey;
         width: auto;
-        height: 400px;
     }
 }
 tbody {
@@ -127,16 +126,6 @@ td, th {
     background: #52d3aa;
     color: #fff;
     font-size: 16px;
-}
-
-@media screen and (max-width: 768px) {
-    .table_Hd th {
-        height: 20px;
-        background: #52d3aa;
-        color: #fff;
-        font-size: 16px;
-
-    }
 }
 
 address, caption, cite, code, dfn, th, var {
