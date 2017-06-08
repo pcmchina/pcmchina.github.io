@@ -93,6 +93,7 @@ table{
         display: table;
         border-color: grey;
         width: auto;
+        height: 400px;
     }
 }
 tbody {
