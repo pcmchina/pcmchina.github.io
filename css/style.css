@@ -358,7 +358,13 @@ h1, h2, h3, h4, h5, h6, figure {
     bottom: 0!important;
     margin-bottom:0!important;
   }
+  
 
+  .carousel-inner > .item > img, 
+	.carousel-inner > .item > a > img{
+		width: 100%;
+		height: 300px!important;
+	}
 }
 .gtco-cover .display-t,
 .gtco-cover .display-tc {
@@ -1589,4 +1595,5 @@ form label {
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
     width: 100%;
+    height: 900px;
 }
